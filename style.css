@@ -66,14 +66,9 @@
     margin-right: auto;
 }
 
-/* .logo:hover {
-    background-color: red;
-} */
-
 .icon {
     height: 100%;
     width: auto;
-    /* margin-right: auto; */
 }
 
 .phone {
@@ -87,30 +82,8 @@
     padding-right: 2vmin;
 }
 
-.navbtn {
-    height: 100%;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 2vmin;
-    padding-right: 2vmin;
-}
-
-.navbtn:hover {
-    background-color: red;
-}
-
-.schedule {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
 .tests-about {
-    width: 100vmin;
+    width: 90vmin;
     height: auto;
     background-color: black;
     display: flex;
@@ -133,7 +106,7 @@
 }
 
 .tests-table {
-    width: 100vmin;
+    width: 90vmin;
     height: auto;
     background-color: black;
     display: flex;
