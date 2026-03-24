@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana';
+    color: black;
+    text-decoration: none;
+}
+
+/* body {
+    width: 100%; */
+    /* height: 100vh; */
+    /* background-color: #202020; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; */
+    /* overflow: scroll;
+} */
+
+.header {
+    width: 100%;
+    height: 10vmin;
+    /* min-height: 10vmin; */
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-divider {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.content {
+    width: 100%;
+    min-height: calc(100vh - 20vmin);
+    /* flex-grow: 1; */
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    /* overflow: scroll; */
+}
+
+.footer {
+    width: 100%;
+    height: 10vmin;
+}
+
+.logo {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0vmin;
+    padding-right: 0vmin;
+    margin-right: auto;
+}
+
+/* .logo:hover {
+    background-color: red;
+} */
+
+.icon {
+    height: 100%;
+    width: auto;
+    /* margin-right: auto; */
+}
+
+.phone {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2vmin;
+    padding-right: 2vmin;
+}
+
+.navbtn {
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2vmin;
+    padding-right: 2vmin;
+}
+
+.navbtn:hover {
+    background-color: red;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tests-about {
+    width: 100vmin;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5vmin;
+    margin-bottom: 5vmin;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+}
+
+.tests-about-text {
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    margin-top: 1px;;
+    padding: 2.5vmin;
+}
+
+.tests-table {
+    width: 100vmin;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* row-gap: 1px; */
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+}
+
+.tests-table-section-header {
+    width: 100%;
+    /* min-height: 4vmin; */
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* row-gap: 1px; */
+    /* padding: 1px; */
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.tests-row {
+    width: 100%;
+    /* min-height: 4vmin; */
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tests-row-b {
+    width: 100%;
+    /* min-height: 4vmin; */
+    background-color: #80ffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tests-column-name {
+    width: auto;
+    height: auto;
+    font-size: 2vmin;
+    color: black;
+    margin-right: auto;
+    padding-left: 2px;
+    /* background-color: grey; */
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.tests-column-cost {
+    width: auto;
+    height: auto;
+    font-size: 2vmin;
+    color: black;
+    padding-right: 2px;
+    /* background-color: grey; */
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
